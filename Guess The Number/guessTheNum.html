@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Number</title>
+    
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+
+    
+    <!-- Css -->
+    <link rel="stylesheet" href="guessTheNum.css">
+
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <div class="game-header">
+        <h1>Guess The Number</h1>
+    </div>
+
+    <!-- Body Part (All Content) -->
+    <section class="game-body">
+        
+        <!-- Title Text -->
+        <h3 class="logo"> <span>1</span> -?- <span>100</span></h3>
+        <p class="logo-text">Guess number between 1 to 100</p>
+        
+        <!-- Submit Guess Form -->
+        <form action="#">
+            <input type="number" name="giveNum" id="guessNum" placeholder="What's your guess?">
+        </form>
+
+        <!-- Show Result Of User Guess (From Js) -->
+        <div id="result"></div>
+                
+        <!-- Function Buttons -->
+        <div class="buttons">
+            <button id="check" class="b1">Check It</button>
+            <button id="reset" class="b2">Reset</button>
+        </div>
+
+        <!-- History of guesses user made (From Js) -->
+        <div id="history"></div>
+
+    </section>
+
+    <!-- Script -->
+    <script src="guessTheNum.js"></script>
+</body>
+
+</html>

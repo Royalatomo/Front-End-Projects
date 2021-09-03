@@ -1,0 +1,125 @@
+/* Removing Default Style */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Section: Header Part */
+
+.game-header {
+    padding: 2rem 1rem;
+    background-color: #023047;
+    text-align: center;
+    color: #fffffc;
+}
+
+.game-header h1{
+    font-size: 3.5rem;
+}
+
+/* Section: Body Part */
+
+.game-body input, .game-body .buttons, .game-body form, h3 {
+    text-align: center;
+}
+
+.game-body {
+    padding: 3rem 0rem;
+}
+
+.game-body h3 {
+    font-size: 7rem;
+    color: #000000;
+    margin-bottom: 1%;
+}
+
+.logo-text {
+    text-align: center;
+    padding: 0% 0% 2%;
+    font-size: 1.5rem;
+    color: #ce9e1c;
+}
+
+.game-body span {
+    color: #0077b6;
+}
+
+#result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Message for result (from js) */
+#message{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 2rem;
+}
+
+.game-body input {
+    height: 3rem;
+    border: 2px solid rgba(167, 163, 163, 0.924);
+    border-radius: 0.3rem;
+    width: 30rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: left;
+    padding: 0.3% 1%;
+}
+
+/* Buttons */
+
+button {
+    border: none;
+    font-size: 1.8rem;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding: 0.7rem 1rem;
+    border-radius: 0.3rem;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.buttons {
+    margin-top: 1.5rem;
+}
+
+.b1 {
+    color: white;
+    background-color: rgb(73, 71, 71);
+}
+
+.b2 {
+    color: black;
+    background-color: rgba(241, 235, 235, 0.952);
+}
+
+.b1:hover {
+    background: rgb(36, 34, 34);
+}
+
+.b2:hover {
+    background-color: rgb(212, 208, 208);
+}
+
+/* History */
+#history{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-top: 1rem;
+}
+
+/* Message Storing in history (from js) */
+.history-text{
+    font-size: 1.5rem;
+    border: 2px solid;
+    padding: 0.3rem 1rem;
+    font-weight: 600;
+}
