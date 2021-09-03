@@ -1,0 +1,62 @@
+body{
+    background-color: rgba(0, 0, 0, 0.87);
+}
+
+.heading{
+    font-family: "Arvo", cursive;
+    font-size: 7rem;
+    margin-top: 4rem;
+    margin-bottom: 7rem;
+}
+
+.img{
+    width: 11vw;
+    height: 22vh;
+    
+}
+
+.img-container{
+    border: 0.8rem solid rgb(26, 25, 25);
+    border-radius: 10%;
+}
+
+.btn-text{
+    font-size: 4rem;
+    font-family: "Arvo", cursive;
+    color: red;
+    background: white;
+}
+
+.img1{
+    background-repeat: no-repeat;
+    background-image: url('./img/tom1.png');
+}
+.img2{
+    background-image: url('./img/tom2.png');
+    background-repeat: no-repeat;    
+}
+.img3{
+    background-image: url('./img/tom3.png');
+    background-repeat: no-repeat;
+}
+.img4{
+    background-image: url('./img/tom4.png');
+    background-repeat: no-repeat;
+}
+.img5{
+    background-image: url('./img/snare.png');
+    background-repeat: no-repeat;
+}
+.img6{
+    background-image: url('./img/crash.png');
+    background-repeat: no-repeat;
+}
+.img7{
+    background-image: url('./img/kick.png');
+    background-repeat: no-repeat;
+}
+
+
+.img-container:active, .img-active{
+    box-shadow: 0px 0px 17px 0px white;
+}
