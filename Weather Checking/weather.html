@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="weather.css">
+
+    <title>Weather App</title>
+</head>
+
+<body>
+
+    <!-- Heading Area -->
+    <section class="heading d-flex justify-content-center align-items-center">
+
+        <!-- Heading Text -->
+        <h1 class="text-warning">Weather</h1>
+
+    </section>
+
+    <!-- Body Section -- (User Interaction) -->
+    <section class="body d-flex justify-content-center align-items-center flex-column">
+
+        <!-- Data Input Area -->
+        <form>
+            <input class="body-input form-control" type="text" placeholder="Search City">
+        </form>
+
+        <!-- Searching Button -->
+        <button class="body-button btn btn-lg btn-dark" id="check">Search</button>
+
+    </section>
+
+    <!-- Result Showing Area -->
+    <section class="result d-flex justify-content-center align-items-center">
+
+        <!-- Result Tempelate -->
+        <div class="card text-center visually-hidden">
+            <!-- City Name (Heading) -->
+            <h3 id="city" class="card-header">----</h3>
+
+            <!-- Body Part -->
+            <div class="card-body">
+                <h3 id="status" class="card-text">----</h3> 
+                <div class="temp-box">
+                    <!-- Temperature Data -->
+                    <p id="temp" class="temp card-text">Temp: --°</p>
+                    <p id="min-temp" class="temp card-text">Min Temp: --°</p>
+                    <p id="max-temp" class="temp card-text">Max Temp: --°</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- Scripts -->
+    <script src="weather.js"></script>
+
+</body>
+
+</html>

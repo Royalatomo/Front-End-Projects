@@ -1,0 +1,58 @@
+/* Section: Heading */
+
+.heading h1{
+    padding-top: 3%;
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+
+/* Section: Body */
+
+.body-input {
+    margin-top: 2rem;
+    font-size: 1.7rem;
+    font-weight: 500;
+    width: 60vw;
+}
+
+.body-button{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+}
+
+/* Section: Result */
+
+.result{
+    padding: 2%;
+}
+
+.card{
+    font-size: 2rem;
+    min-width: 60vw;
+}
+
+.card-header, .card-body h3{
+    font-weight: 500;
+    font-size: 4rem;
+}
+
+.temp{
+    margin: 0;
+}
+
+.temp-box{
+    margin: 3% 0;
+}
+
+
+/* Used By JavaScript */
+
+.error{
+    font-size: 4rem;
+    font-weight: 600;
+    border: 4px solid black;
+    padding: 1%;
+}
+
