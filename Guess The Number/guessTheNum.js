@@ -16,6 +16,7 @@ window.onload = function () {
 function startGame() {
   
   let gussedNumber = getUserGuess();
+  if(!gussedNumber) return;
   let result = checkResult(gussedNumber, choosenNumber);
 
   if (result.messageType == "won") {
