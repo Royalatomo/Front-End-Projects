@@ -1,62 +1,85 @@
-body{
+body {
     background-color: rgba(0, 0, 0, 0.87);
 }
 
-.heading{
+.heading {
     font-family: "Arvo", cursive;
     font-size: 7rem;
     margin-top: 4rem;
     margin-bottom: 7rem;
+    text-align: center;
+
 }
 
-.img{
+@media screen and (max-width: 730px) {
+    .heading {
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .heading {
+        font-size: 3rem;
+    }
+}
+
+
+.img {
     width: 11vw;
     height: 22vh;
-    
+
 }
 
-.img-container{
+.img-container {
     border: 0.8rem solid rgb(26, 25, 25);
     border-radius: 10%;
 }
 
-.btn-text{
+.btn-text {
     font-size: 4rem;
     font-family: "Arvo", cursive;
     color: red;
     background: white;
 }
 
-.img1{
+.img-div button {
     background-repeat: no-repeat;
+    background-position: center;
+    color: black;
+    font-weight: bold;
+    text-shadow: 0 0 11px white;
+    min-width: 300px;
+}
+
+.img1 {
     background-image: url('./img/tom1.png');
 }
-.img2{
+
+.img2 {
     background-image: url('./img/tom2.png');
-    background-repeat: no-repeat;    
 }
-.img3{
+
+.img3 {
     background-image: url('./img/tom3.png');
-    background-repeat: no-repeat;
 }
-.img4{
+
+.img4 {
     background-image: url('./img/tom4.png');
-    background-repeat: no-repeat;
 }
-.img5{
+
+.img5 {
     background-image: url('./img/snare.png');
-    background-repeat: no-repeat;
 }
-.img6{
+
+.img6 {
     background-image: url('./img/crash.png');
-    background-repeat: no-repeat;
 }
-.img7{
+
+.img7 {
     background-image: url('./img/kick.png');
-    background-repeat: no-repeat;
 }
 
 
-.img-container:active, .img-active{
+.img-container:active, .img-active {
     box-shadow: 0px 0px 17px 0px white;
 }
