@@ -49,14 +49,13 @@ body{
     grid-template-columns: 1fr 1fr 1fr;
 }
 .images-button img{
-    height: 100%;
-    width: 100%;
-    padding: 0 2rem;
+    height: 90%;
+    width: 90%;
     border-radius: 50%;
 }
 
 .images-button img:hover{
-    box-shadow:  0 0 26px 9px rgba(20, 20, 20, 0.698)
+    box-shadow:  0 0 20px 2px rgba(20, 20, 20, 0.4)
 }
 
 .score-board{
@@ -74,8 +73,9 @@ body{
 }
 
 .match-result{
+    text-align: center;
     align-self: center;
-    font-size: 5vw;
+    font-size: 4rem;
 }
 
 
