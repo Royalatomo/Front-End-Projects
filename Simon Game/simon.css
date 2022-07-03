@@ -8,11 +8,24 @@ body {
     justify-content: center;
 }
 
+
 h1 {
     color: white;
     font-size: 6rem;
+    text-align: center;
 }
 
+@media screen and (max-width: 950px) {
+    h1 {
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    h1 {
+        font-size: 3rem;
+    }
+}
 
 /* Color Boxes */
 .container {
@@ -21,29 +34,32 @@ h1 {
 }
 
 .green, .red, .yellow, .purple {
-    height: 27vh;
-    width: 15vw;
+    min-height: 140px;
+    min-width: 140px;
     border: 10px solid rgb(0, 0, 0);
     border-radius: 22%;
 }
 
 .green {
     background-color: rgb(0, 87, 29);
-    margin-right: 1rem;
+    margin-right: .5rem;
     margin-bottom: 1rem;
 }
 
 .red {
     background-color: rgb(204, 0, 0);
+    margin-left: .5rem;
     margin-bottom: 1rem;
 }
 
 .yellow {
     background-color: rgb(217, 255, 0);
+    margin-right: .5rem;
 }
 
 .purple {
     background-color: rgb(89, 0, 253);
+    margin-left: .5rem;
 }
 
 
