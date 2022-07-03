@@ -14,7 +14,7 @@
     color: #fffffc;
 }
 
-.game-header h1{
+.game-header h1 {
     font-size: 3.5rem;
 }
 
@@ -45,14 +45,14 @@
     color: #0077b6;
 }
 
-#result{
+#result {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 /* Message for result (from js) */
-#message{
+#message {
     font-size: 1.5rem;
     font-weight: 600;
     margin-top: 2rem;
@@ -62,7 +62,8 @@
     height: 3rem;
     border: 2px solid rgba(167, 163, 163, 0.924);
     border-radius: 0.3rem;
-    width: 30rem;
+    width: 90vw;
+    max-width: 30rem;
     font-size: 1.5rem;
     font-weight: 600;
     text-align: left;
@@ -107,7 +108,7 @@ button:hover {
 }
 
 /* History */
-#history{
+#history {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -117,9 +118,23 @@ button:hover {
 }
 
 /* Message Storing in history (from js) */
-.history-text{
+.history-text {
     font-size: 1.5rem;
     border: 2px solid;
     padding: 0.3rem 1rem;
     font-weight: 600;
+}
+
+@media screen and (max-width: 530px) {
+    .game-body h3 {
+        font-size: 4rem;
+    }
+
+    .logo-text, #message, .history-text {
+        font-size: 1rem;
+    }
+
+    button {
+        font-size: 1.2rem;
+    }
 }
